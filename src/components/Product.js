@@ -10,6 +10,7 @@ function Product(props) {
 
   const dispatch = useDispatch();
 
+  
   const [isAdd, setisAdd] = useState(false);
 
   const cardlist = useSelector((state) => state.reducer);

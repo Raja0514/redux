@@ -31,7 +31,7 @@
   margin-top: 20px;
   border-radius: 10px;
 }
-h5 {
+h2 {
   text-align: center;
   color: blue;
 }
@@ -60,17 +60,6 @@ h5 {
 }
 h1{
     text-align: center;
-}
-.input{
-    padding: 10px;
-     width: 250px;
-     border:2px solid;
-     margin-left:20px;
-
-}
-.search{
-    padding: 10px;
-    font-size: 13px;
-    border: 2px solid;
-    margin: 10px;
+    color: blue;
+    padding-left: 10px;
 }

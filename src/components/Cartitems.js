@@ -11,14 +11,12 @@ function Cartitems() {
   }, [Cartitems]);
   return (
     <>
-      <h5>Cart Items</h5>
+      <h2>Cart Items</h2>
       <div className="itembox">
         {items.map((list, index) => {
           return (
             <>
-              <div
-                className="smallbox"
-              >
+              <div className="smallbox">
                 <p key={index}>{list.name}</p>
 
                 <p>{list.price}</p>
