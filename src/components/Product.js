@@ -41,7 +41,7 @@ function Product(props) {
     } else {
       setisAdd(false);
     }
-  }, [cardlist]);
+  },[cardlist]);
 
   return (
     <>
