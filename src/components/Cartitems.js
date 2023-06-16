@@ -1,14 +1,9 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-
 function Cartitems() {
-
   const [items, setitems] = useState([]);
-
   const Cartitems = useSelector((state) => state.reducer);
-  
   //console.log("new card items", Cartitems);
-
   useEffect(() => {
     setitems(Cartitems);
   }, [items]);
@@ -16,7 +11,7 @@ function Cartitems() {
     <>
       <h2>Cart Items</h2>
       <div className="itembox">
-        {items.map((list,index) => {
+        {items.map((list, index) => {
           return (
             <>
               <div className="smallbox">
@@ -35,5 +30,4 @@ function Cartitems() {
     </>
   );
 }
-
 export default Cartitems;

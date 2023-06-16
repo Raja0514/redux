@@ -10,7 +10,6 @@ function App() {
       <div>
         <Header />
       </div>
-
       <div className="product">
         {mobiles.map((items, index) => (
           <Product key={index} item={items} />
