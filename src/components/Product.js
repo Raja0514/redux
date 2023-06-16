@@ -15,13 +15,13 @@ function Product(props) {
 
   const cardlist = useSelector((state) => state.reducer);
 
-  console.log("product items checking", cardlist);
+  //console.log("product items checking", cardlist);
 
-  console.log(props);
+  //console.log(props);
 
   const items = props.item;
 
-  console.log("items", items);
+  //console.log("items", items);
 
   function removefromcard() {
     dispatch(removecart(items.name));

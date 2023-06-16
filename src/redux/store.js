@@ -6,6 +6,6 @@ const store = configureStore({
   reducer: rootreducer,
 });
 
-console.log("store items", store)
+//console.log("store items", store)
 
 export default store;

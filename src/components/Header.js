@@ -7,11 +7,11 @@ import "./Style.css";
 function Header() {
   const [items, setitems] = useState([]);
 
-  console.log("useitems", items);
+  //console.log("useitems", items);
 
   const carditems = useSelector((state) => state.reducer);
 
-  console.log("useselector items", carditems);
+  //console.log("useselector items", carditems);
 
   useEffect(() => {
     setitems(carditems.length);
