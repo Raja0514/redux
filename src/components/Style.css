@@ -1,0 +1,76 @@
+.container {
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.button {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+}
+.cartitems {
+  border: 2px solid;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+h5 {
+  text-align: center;
+  color: blue;
+}
+
+.itembox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.smallbox {
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+h1{
+    text-align: center;
+}
+.input{
+    padding: 10px;
+     width: 250px;
+     border:2px solid;
+     margin-left:20px;
+
+}
+.search{
+    padding: 10px;
+    font-size: 13px;
+    border: 2px solid;
+    margin: 10px;
+}
